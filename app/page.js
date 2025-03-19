@@ -29,11 +29,8 @@ export default function Home() {
           border: "none",
           borderRadius: "5px",
           cursor: "pointer",
-          transition: "0.3s"
-        }}
-        onMouseOver={(e) => e.target.style.backgroundColor = "#ddd"}
-        onMouseOut={(e) => e.target.style.backgroundColor = "#ffffff"}
-        >
+          transition: "background-color 0.3s ease"
+        }}>
           Start Learning
         </button>
       </a>
